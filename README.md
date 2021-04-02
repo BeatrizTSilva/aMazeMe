@@ -1,3 +1,8 @@
+### Command Line
+```bash
+$aed$./amazeme <nome>.maps
+```
+
 ## Tests
 
 Para verificarem se o vosso programa produz a solução correcta para cada ficheiro de extensão 1maps, deverão produzir a diferença entre o vosso ficheiro de extensão query e o nosso (naturalmente, necessitarão alterar o nome dos nossos ficheiros de extensão query para que os não percam quando executarem o vosso programa; em alternativa podem guardá-los numa directoria à parte). O comando no modo linha é:
@@ -35,3 +40,7 @@ Se os alunos pretenderem gerar testes diferentes dos que estão publicados nesta
        Se fizerem isto terão de criar um ficheiro de extensão ".check" copiando para ele a solução do problema extraído;
     3. Sugerir ao corpo docente algumas características que desejem testar, para que se produza o teste e soluções;
     4. Em última opção, construí-los de raíz e pedir ao corpo docente o envio e/ou publicação das soluções.
+
+
+## Some Rules
+As flags de compilação a usar na M(m)akefile submetida deverão ser apenas as seguintes: -Wall -ansi -O3;
